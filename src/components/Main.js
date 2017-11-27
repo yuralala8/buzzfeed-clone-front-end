@@ -9,7 +9,7 @@ class Main extends React.Component {
 		}
 	}
 
-	componentDidMount = () => {
+	componentDidMount(){
 		this.props.fetchNews()
 	}
 
@@ -17,7 +17,7 @@ class Main extends React.Component {
 		console.log(this.props)
 		return(
 			<div>
-			<p>Hi</p>
+			{this.props.news}
 			</div>
 			)
 	}
