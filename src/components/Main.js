@@ -14,10 +14,10 @@ class Main extends React.Component {
 	}
 
 	render(){
-		console.log(this.props)
+		console.log("logging from Main.js", this.props.news)
 		return(
 			<div>
-			{this.props.news}
+			{this.props.news.map(article => <p> {article.title + article.author + article.description} </p>)}
 			</div>
 			)
 	}
@@ -25,7 +25,7 @@ class Main extends React.Component {
 
 function mapStateToProps(state){
 	return {
-		news: state.news.fetchNews
+		news: state.news.news
 	}
 }
 

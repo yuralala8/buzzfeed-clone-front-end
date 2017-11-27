@@ -3,7 +3,6 @@ export function fetchNews() {
 		fetch('http://localhost:3000/api/v1/news',{
           method: 'get',
           headers: {
-            "Content-Type":"application/json",
             "Accept":"application/json"
           }
         })

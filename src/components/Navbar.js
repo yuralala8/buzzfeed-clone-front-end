@@ -19,19 +19,23 @@ const Navbar = () => {
 				</div>
 				<div className="circles">
 					<svg height="50" width="50">
-						<circle cx="25" cy="25" r="20" fill="rgb(255, 238, 0)"/>
+						<circle fill="rgb(255, 238, 0)"/>
+						<text className="circle-text" x="10" y="30" fill="black" transform="rotate(40 25,30)">LOL</text>
 					</svg>
 					<svg height="50" width="50">
-						<circle cx="25" cy="25" r="20" fill="rgb(255, 238, 0)"/>
+						<circle fill="rgb(255, 238, 0)"/>
+						<text className="circle-text" x="10" y="30" fill="black" transform="rotate(40 25,30)">wtf</text>
 					</svg>
 					<svg height="50" width="50">
-						<circle cx="25" cy="25" r="20" fill="rgb(255, 238, 0)"/>
+						<circle fill="rgb(255, 238, 0)"/>
+						<text className="circle-text" x="10" y="30" fill="black" transform="rotate(40 25,30)">omg</text>
 					</svg>
 					<svg height="50" width="50">
-						<circle cx="25" cy="25" r="20" fill="rgb(255, 238, 0)"/>
+						<circle fill="rgb(255, 238, 0)"/>
+						<text className="circle-text" x="10" y="30" fill="black" transform="rotate(40 25,30)">cute</text>
 					</svg>
 					<svg height="50" width="50">
-						<circle cx="25" cy="25" r="20" fill="red"/>
+						<circle fill="red"/>
 					</svg>
 				</div>
 			</div>
