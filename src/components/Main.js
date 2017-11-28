@@ -17,7 +17,7 @@ class Main extends React.Component {
 		console.log("logging from Main.js", this.props.news)
 		return(
 			<div>
-			{this.props.news.map(article => <p> {article.title + article.author + article.description} </p>)}
+			{this.props.news.map(article => (<p> {article.title + article.author + article.description} </p>))}
 			</div>
 			)
 	}
